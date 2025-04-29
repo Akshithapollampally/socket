@@ -4,7 +4,7 @@ import express from "express";
 import http from "http";
 import { Server } from "socket.io";
 import cors from "cors";
-
+import { connectDB } from "./backend/config/db.js";
 import ticketRouter from "./backend/routes/ticketRoute.js"
 
 const app = express();
