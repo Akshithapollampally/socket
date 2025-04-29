@@ -1,6 +1,6 @@
 // routes/ticketRoute.js
 import express from "express";
-import Ticket from "../model/ticketModel.js"; // Ensure this model exists
+import Ticket from "../models/ticketModel.js"; // Ensure this model exists
 
 const router = express.Router();
 
