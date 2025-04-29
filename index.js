@@ -25,6 +25,10 @@ connectDB();
 
 // Routes
 app.use("/api/tickets", ticketRouter);
+// ✅ Base Route
+app.get("/", (req, res) => {
+  res.send("✅ API Working");
+});
 
 // Socket.IO logic
 io.on("connection", (socket) => {
