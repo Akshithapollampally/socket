@@ -5,7 +5,7 @@ import http from "http";
 import { Server } from "socket.io";
 import cors from "cors";
 
-import ticketRouter from "./routes/ticketRoute.js";
+import ticketRouter from "./backend/routes/ticketRoute.js"
 
 const app = express();
 const server = http.createServer(app);
